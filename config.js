@@ -410,18 +410,16 @@ import(`${file}?update=${Date.now()}`);
 async function fetchDataAndProcess() {
 const response = await fetch('https://raw.githubusercontent.com/GataNina-Li/GataBot-MD/master/official_accounts.json')
 const data = await response.json() 
-let { accounts, channels, groups, collaboration, sponsors, others } = data.info
+let { cuentasofc, canalesofc, gruposofc } = data.info
 
-global.yt = accounts.youTube
-global.yt2 = others.yt_vid
-global.ig = accounts.instagram
-global.md = accounts.natsukigit
-global.fb = accounts.facebook
-global.tk = accounts.tiktok
-global.paypal = accounts.paypal
-global.asistencia = others.assistance_num
-global.bot = 'wa.me/50238024328'
-global.cuentas = accounts.all
+global.yt = cuentasofc.youTube
+global.ig = cuentasofc.instagram
+global.md = cuentasofc.natsukigit
+global.fb = cuentasofc.facebook
+global.tk = cuentasofc.tiktok
+global.paypal = cuentasofc.paypal
+global.bot = 'wa.me/'
+global.cuentas = cuentasofc.all
 
-global.canal1 = channels.channel1
+global.canal1 = canalesofc.canalwa1
 }
