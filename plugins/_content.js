@@ -8,10 +8,9 @@ var handler = m => m
 handler.all = async function (m) {
 global.key = ''
 
-global.canales = [canal1, canal2, canal3, canal4].getRandom()
-global.welgata = [tk, ig, yt2, yt2, ig, md, ig, yt, paypal, yt2, yt2, ig, fb, tk, ths, asistencia].getRandom()
-global.redesMenu = [canal1, canal2, canal3, canal4, soporteGB, grupo1, grupo2, grupo3, grupo4, grupo5, grupo6, md, ig, paypal, yt, asistencia, fb, tk].getRandom()
-global.accountsgb = [canal1, canal2, canal3, canal4, tk, ig, yt, paypal, fb, ths, md, asistencia].getRandom()
+global.canales = [canalwa1, canalwa2, canalwa3].getRandom()
+global.redesofcM = [ grupo1, grupo2, grupo3, md, ig, paypal, yt, asistencia, fb, tk].getRandom()
+global.cuentasofc = [tk, ig, yt, paypal, fb, ths, md].getRandom()
 
 global.canalIdGB = ["120363160031023229@newsletter", "120363169294281316@newsletter", "120363203805910750@newsletter", "120363302472386010@newsletter"]
 global.canalNombreGB = ["INFINITY-WA 💫", "GB - UPDATE 🐈", "Tips sobre GataBot 🤩", "NEW PROJECT: YartexBot-MD ✨"]
