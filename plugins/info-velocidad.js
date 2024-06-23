@@ -13,7 +13,7 @@ render: (literal, symbol) => `${literal} ${symbol}B`,
 })
 let handler = async (m, { conn, usedPrefix, command, isRowner}) => {
 try {
-let enlace = { contextInfo: { externalAdReply: {title: wm, body: 'support group' , sourceUrl: accountsgb, thumbnailUrl: await(await fetch(gataMenu)).buffer() }}}
+let enlace = { contextInfo: { externalAdReply: {title: wm, body: 'support group' , sourceUrl: canalofc, thumbnailUrl: await(await fetch(natsukiMenu)).buffer() }}}
 let enlace2 = { contextInfo: { externalAdReply: { showAdAttribution: true, mediaUrl: yt, mediaType: 'VIDEO', description: '', title: wm, body: wm, thumbnailUrl: await(await fetch(NatsukiMenu)).buffer(), sourceUrl: canalofc }}}
 let dos = [enlace, enlace2]
 
